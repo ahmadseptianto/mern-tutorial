@@ -1,2 +1,2 @@
-app.use(express.json())
-app.use(express.urlencoded({extended : false}))
+const {errorHandler} = require('../middleware/errorMiddleware')
+app.use(errorHandler)
