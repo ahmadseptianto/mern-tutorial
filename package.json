@@ -1,15 +1,1 @@
-{
-  "name": "mern-tutorial",
-  "version": "1.0.0",
-  "description": "Goalsetter app tutorial",
-  "main": "server.js",
-  "scripts": {
-    "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
-  },
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "nodemon": "^2.0.19"
-  }
-}
+"express-async-handler": "^1.2.0",

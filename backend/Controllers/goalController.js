@@ -1,2 +1,9 @@
-res.status(400)
-throw new Error('Please add a text field')
+const asyncHandler = require('express-async-handler')
+const getGoals = asyncHandler(async(req,res) => {
+})
+const setGoal = asyncHandler(async(req,res) => {
+})
+const updateGoal = asyncHandler(async(req,res) => {
+})
+const deleteGoal = asyncHandler(async(req,res) => {
+})
