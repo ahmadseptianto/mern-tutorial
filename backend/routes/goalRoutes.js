@@ -1,4 +1,9 @@
-const { getGoals } = require('../controllers/goalController')
+const { 
+    getGoals,
+    setGoal,
+    updateGoal,
+    deleteGoal
+ } = require('../controllers/goalController')
 
-
-router.get('/', getGoals)
+router.route('/').get(getGoals).post(setGoal)
+router.route('/:id').put(updateGoal).delete(deleteGoal)
